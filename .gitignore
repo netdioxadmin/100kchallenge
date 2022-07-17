@@ -13,4 +13,8 @@ ifcheck
 ifcheck2
 nestedif
 elseif
+case
+pass
+grade
+week
 
