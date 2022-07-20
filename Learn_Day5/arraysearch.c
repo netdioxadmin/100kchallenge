@@ -18,7 +18,7 @@ for ( i = 0; i < limit; i++){
      }
 
 }
-if (flag =1){
+if (flag==1){
     printf(" Value found at positon %d \n", i+1);
 }else{
     printf("Value not found\n");

@@ -8,7 +8,7 @@ printf("Enter  Values:\n");
 for (i = 0; i < limit; i++){
    scanf("%d",&array[i]);
 }
-printf("Entered vallues are");
+printf("Entered vallues are \n");
 for ( i = 0; i < limit; i++)
 {
   printf(" %d \n",array[i]);
