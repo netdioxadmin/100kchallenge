@@ -2,7 +2,7 @@
 int main(){
     int R;
     R=sum();
-    printf("Result = %d",R);
+    printf("Result = %d\n",R);
 return 0;
 }
 int sum(){
