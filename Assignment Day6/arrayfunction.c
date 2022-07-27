@@ -1,15 +1,17 @@
 #include<stdio.h>
+/* Declaring constent size  */
 int size =3; 
 void displayArray(int array[size][size]);
 void getArray(int array [size][size]);
 
 int main (){
+/*   2D array size */
     int array[size][size];
     getArray(array); 
     displayArray(array);
 return 0;
 }
-
+/* function to get array */
 void getArray(int array[size][size]){
   int i,j;
     printf(" Enter %dX%d numbers:\n",size,size);
@@ -20,6 +22,7 @@ void getArray(int array[size][size]){
      }
      return(array);
 }
+/* Function to display array */
 void displayArray(int array[size][size]){
     int i,j;
     printf("Values of array are\n");
